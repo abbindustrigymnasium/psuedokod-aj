@@ -1,1 +1,47 @@
+Räkna ut hur mycket pengar i studiebidrag en elev får under sina tre år på gymnasiet? Studiebidraget är 1 250 kronor i månaden. Du får det för alla hela månader du studerar under september till maj. Du får också en extra utbetalning i juni. I december får vissa bara ett halvt studiebidrag (625 kronor). Det gäller de som fyller 16 år i juli–september.
+
+
+Create studiebidrag_per_month and set it equal to 1250
+Prompt user for month born as a number
+Save input to month_born
+If month_born is equal to 7, 8 or 9
+Product = studiebidrag_per_month * 9.5
+Save to studiebidrag_per_year
+If month_born is not equal to 7, 8 or 9 
+Product = studiebidrag_per_month * 10
+Save to studiebidrag_per_year
+Product = studiebidrag_per_year * 3
+Save to total_studiebidrag
+Print total_studiebidrag
+
+
+
+
+
+Bengt ska handla tonfisk, han har 347 kronor och handlar gärna så många burkar som möjligt, hur många burkar får han om en burk kostar 13,95 men 30 kronor burken för varje trepack man köper.
+
+Create money and set equal to 347
+Product = money / 30
+Save as integer rounded down
+Save to three_packs
+Product = 30 * three_packs
+Save to cost_three_packs
+Sum = money – cost_three_packs
+Save to money_left
+Product = money_left / 13.95
+Save as integer rounded down
+Save to single_packs
+Sum = single_packs + three_packs
+Save to total_cans
+Print total_cans
+
+
+
+Åsa är på gröna lund och vill åka karuseller, Hon gillar att bara åka samma karuseller och har köpt ett kort med 20 biljetter på. De hon vill veta är hur många gånger hon kan åka bara galna musen, bara flygande kvasten eller gå bara i lustiga huset för sina 20 biljetter. Galna musen tar tre biljetter per gång, lustiga huset två och flygande kvasten 4.
+
+Create num_ticets and set it equal to 20
+Divide num_ticets
+
+
+
 
