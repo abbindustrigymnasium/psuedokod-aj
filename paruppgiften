@@ -40,7 +40,17 @@ Print total_cans
 Åsa är på gröna lund och vill åka karuseller, Hon gillar att bara åka samma karuseller och har köpt ett kort med 20 biljetter på. De hon vill veta är hur många gånger hon kan åka bara galna musen, bara flygande kvasten eller gå bara i lustiga huset för sina 20 biljetter. Galna musen tar tre biljetter per gång, lustiga huset två och flygande kvasten 4.
 
 Create num_ticets and set it equal to 20
-Divide num_ticets
+Product = num_ticets / 3
+Save as integer to num_crazy_mouse
+Print num_crazy_mouse
+Product = num_ticets / 2
+Save as integer to num_silly_house
+Print num_silly_house
+Product = num_ticets / 4
+Save as integer to num_flying_broomstick
+Print  num_flying_broomstick
+
+
 
 
 
